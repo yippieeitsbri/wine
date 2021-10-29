@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wine 🍷 </title>
+    <style>
+        body{
+          background-color: #ffcccc;
+        }
+        h1{
+            text-align: center;
+            color: darkred;
+            font-size: 48px;
+            font-weight: 500;
+           font-weight: lighter;
+            
+        }
+      
+        h2 {
+  text-align: center;
+  border: 1px solid darkred;
+  border-radius: 4px;
+  padding: 15px;
+  color: black;
+  font-size: 18px;
+ 
+  
+}
+button {
+        color: white;
+        margin: 20px auto 0;
+        display: block;
+        font-size: 15px;
+        padding: 15px 20px;
+        background: darkred;
+        margin: 0 auto;
+        border-radius: 30px;
+        border: 1px solid red;
+        transition: all 200ms ease-in-out;
+      }
+      button:hover{
+        background: white;
+        color: darkred;
+        cursor: pointer;
+      }
+      p {
+text-align: center;
+        }
+      img {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 30px;
+  max-width: 80%;
+}
+ul{
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        font-size: 20px;
+        line-height: 1.75;
+        
+      }
+      p{
+          line-height: 1.5;
+          font-size: 20px;
+      }
+    </style>
+
+</head>
+<body>
+    <center>
+    <h1>Benefits of Red Wine 🍷 </h1>
+    <h2>10 Health Benefits of Red Wine</h2>
+    <br/>
+    <img src="https://www.thespruceeats.com/thmb/WeUzVLT4mci3c_-cCBC1R8zjWw0=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/red-wine-is-poured-into-a-glass-from-a-bottle--light-background--1153158143-98320451802c485cb6d7b5437c7fd60a.jpg"
+    width= 500>
+    <p>Red wines, which may vary in taste and color, are prepared by crushing and fermenting whole, dark-colored grapes. 
+        <br>There are many varieties of red wine, the most common of which are Merlot, Pinot Noir, Cabernet Sauvignon, Shiraz etc.</p>
+ <br>  
+ <ul>
+1. Rich in antioxidants
+<br>
+2. Lowers bad cholesterol
+<br>
+3. Keeps heart healthy
+<br>
+4. Regulates blood sugar
+<br>
+5. Reduces the risk of cancer
+<br>
+6. Helps treat common cold
+<br>
+7. Keeps memory sharp
+<br>
+8. Keeps you slim
+<br>
+9. Reduces the risk of depression
+<br>
+10. Has positive effects on the digestive system
+<br>
+<p><a href="https://whitehalllane.com/10-health-benefits-of-drinking-red-wine-that-will-keep-you-healthy/" target="_blank"
+            class="benefits">Read more on these benefits </a>
+</p>
+</ul>
+<br>
+<button>Buy red wine </button>
+<script>
+    function buyWine(){
+            let name = prompt("what is your name?");
+            let age = prompt("How old are you?");
+            
+
+        if (age >= 21) {
+        alert ("Let's buy 🍷 ");
+        } 
+        else {
+        alert( "You must be 21+");
+        }
+        }
+    
+        let button = document.querySelector("button");
+        button.addEventListener("click", buyWine);
+</script>
+<br>
+<p class=“author”>Coded by Bri S.<span> &#128129;&#127996;&#8205;&#9792;&#65039;</span></p>
+</html>
